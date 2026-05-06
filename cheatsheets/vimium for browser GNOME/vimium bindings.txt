@@ -23,3 +23,6 @@ map J goBack
 map I previousTab
 unmap zH
 map zJ scrollToLeft
+# 'vimium c' functionality:
+map f LinkHints.activate clickableOnHost="\\bweb\\.telegram\\.org##.TabList\u0020.U0xACBS1,.media-inner.interactive,i.icon-large-play"
+map yr LinkHints.activate button="right" clickableOnHost="\\bweb\\.telegram\\.org##.message-list-item"
